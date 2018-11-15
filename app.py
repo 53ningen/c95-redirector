@@ -16,6 +16,6 @@ def kumamoto_airportBusTimetables():
 
 @app.route('/kumamoto/citytram-timetables')
 def kumamoto_cityTramTimeTables():
-    url = 'https://www.kumamoto-city-tram.jp/Sys/web01'
+    url = 'http://www.kotsu-kumamoto.jp/timetable/pub/rosen.aspx?c_id=42'
     return getRedirectResponse(url)
 
